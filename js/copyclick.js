@@ -1,4 +1,3 @@
-var clicker = $('#copy');
 var element = document.getElementById["#copy"];
 
 $('#copy').click(function(){
@@ -19,7 +18,7 @@ $("#copy").mouseup(function(){
     return false;
 });
 
-$('#Clicker').mouseout(function () {
+$('#copy').mouseout(function () {
     setTimeout(function() {
 		element.innerHTML = "Copy URL";
 		element.style.color = "#92bb35";
