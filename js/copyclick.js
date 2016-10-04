@@ -1,6 +1,6 @@
 $('#copy').click(function(){
-	console.log("registered click");
-    document.getElementById("#copy").innerHTML = "Copied!";
+	console.log("niggah");
+    $('#copy').innerHTML = "Copied!";
 	document.getElementById("#copy").style.color = "#ff3300";
 	document.getElementById("#copy").style.borderColor = "#ff3300";
 	var check = setTimeout(function() {
