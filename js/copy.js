@@ -1,4 +1,4 @@
-$("#copy").click(function() {
+$("#copy").mousedown(function() {
 	clipboard.copy(location.href);
 	
 	var button = document.getElementById("copy");
