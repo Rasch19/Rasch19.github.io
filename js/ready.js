@@ -13,6 +13,7 @@ $(document).ready(function(){
 				{
 					var audio = new Audio('Dota2_music_respawn.mp3');
 					audio.play();
+					button.innerHTML = "Unready";
 					clearInterval(check);
 				}
 				

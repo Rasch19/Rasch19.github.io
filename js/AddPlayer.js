@@ -6,14 +6,13 @@
 		
 		if(button.innerHTML == "Ready")
 		{
+			$("#Fucked").hide();
 			if(parseInt(element.innerHTML) < 5)
 			{
 				element.innerHTML = (parseInt(element.innerHTML) + 1);
 			}
 			
 			button.innerHTML = "Unready";
-			//button.style.borderColor = '#ff3300';
-			//button.style.color = '#ff3300';
 			
 		}
 		else if(button.innerHTML == "Unready")
@@ -24,8 +23,7 @@
 			}
 			
 			button.innerHTML = "Ready";
-			//button.style.borderColor = '#92bb35';
-			//button.style.color = '#92bb35';
+			
 		}
 		else{
 			alert("an Error occured!");
