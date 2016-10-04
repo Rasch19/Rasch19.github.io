@@ -1,7 +1,7 @@
-var timeout, clicker = $('#copy');
+var clicker = $('#copy');
 var element = document.getElementById["#copy"]
 
-clicker.mousedown(function(){
+$('#copy').mousedown(function(){
     element.innerHTML = "Copied!";
 	element.style.color = "#ff3300";
 	element.style.borderColor = "#ff3300";
@@ -10,10 +10,10 @@ clicker.mousedown(function(){
 });
 
 $(document).mouseup(function(){
-    setTimeout(myFunction() {
+    setTimeout(function() {
 		element.innerHTML = "Copy URL";
 		element.style.color = "";
 		element.style.borderColor = "#92bb35";	
-	}, 3000)
+	}, 3000);
     return false;
 });
