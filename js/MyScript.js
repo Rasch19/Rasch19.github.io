@@ -41,10 +41,6 @@ function getUrlVars() {
 						var ids = ["play1", "play2", "play3", "play4", "play5"];
 						pn = data[urlnumber].counter;
 						element.innerHTML = pn;
-						for(i = 0; i < pn; i++)
-						{
-							document.getElementById(ids[i]).src = "img/ready.jpg";
-						}
 						if(pn == 5)
 						{
 							clearInterval(check);

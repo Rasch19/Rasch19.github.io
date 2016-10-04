@@ -1,59 +1,42 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="utf-8"/>
 		<title>Checking...</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		
-		
-		
-		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<p id="p1" style="visibility: hidden;">0</p>
-	
-	<table align="center">
-		<tr>
-			<th><img id="play1" alt="1 player" src="img/unready.png" height="100" width="100"></img></th>
-			<th><img id="play2" alt="2 player" src="img/unready.png" height="100" width="100"></img></th>
-			<th><img id="play3" alt="3 player" src="img/unready.png" height="100" width="100"></img></th>
-			<th><img id="play4" alt="4 player" src="img/unready.png" height="100" width="100"></img></th>
-			<th><img id="play5" alt="5 player" src="img/unready.png" height="100" width="100"></img></th>
-		</tr>
-	</table>
-	
-	
-	<div style="text-align: center;"><button id="Add">Ready</button></div>
-	<p id="Fucked" align="center">I fucked up and reloaded the page after I readied up</p>
-	
-	<script type="text/javascript" src="js/damn.js"></script>
-	<script type="text/javascript" src="js/MyScript.js"></script>
-	<script type="text/javascript" src="js/AddPlayer.js"></script>
-	<script type="text/javascript" src="js/loaded.js"></script>
-	<script type="text/javascript" src="js/ready.js"></script>
-	<!--<script type="text/javascript" src="js/unloaded.js"></script> //denna funkar inte av någon anledning-->
-	<script type="text/javascript">
-	$(window).unload(function(){
-		function getUrlVars() {
-			var vars = {};
-			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-				vars[key] = value;
-			});
-			return vars;
-			}
-			
-			var first = getUrlVars()["url"];
-			
-			$.ajax({
-					url: 'unload.php',
-					data: 'url='+first,
-					success: function() {
-						console.log('send info');
-					}
-				});
-	});
-	</script>
+		<p id="p1" style="visibility: hidden;">0</p>
+		
+		<table id="table" align="center">
+			<tr>
+				<th><img id="play1" alt="1 player" src="img/unready.png" height="100" width="100"></img></th>
+				<th><img id="play2" alt="2 player" src="img/unready.png" height="100" width="100"></img></th>
+				<th><img id="play3" alt="3 player" src="img/unready.png" height="100" width="100"></img></th>
+				<th><img id="play4" alt="4 player" src="img/unready.png" height="100" width="100"></img></th>
+				<th><img id="play5" alt="5 player" src="img/unready.png" height="100" width="100"></img></th>
+			</tr>
+		</table>
+		
+		
+		<table id="knappar" align="center">
+			<tr>
+				<th><a class="button" id="Add">Ready</a></th>
+				<th><a class="button" id="copy">Copy URL</a></th>
+			</tr>
+		</table>
+		
+		<p id="Fucked" style="position: fixed; bottom: 0;">I fucked up and reloaded the page after I readied up</p>
+		
+		<script type="text/javascript" src="js/damn.js"></script>
+		<script type="text/javascript" src="js/MyScript.js"></script>
+		<script type="text/javascript" src="js/AddPlayer.js"></script>
+		<script type="text/javascript" src="js/loaded.js"></script>
+		<script type="text/javascript" src="js/ready.js"></script>
+		<script type="text/javascript" src="js/copy.js"></script>
+		<script type="text/javascript" src="clipboard.js-master/clipboard.js"></script>
+		<script type="text/javascript" src="clipboard.js-master/clipboard.min.js"></script>
 	</body>
 
 	

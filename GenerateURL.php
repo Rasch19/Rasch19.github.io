@@ -14,7 +14,8 @@
 	}
 	
 	$url = generateRandomString();
-	$p = array( "url" => $url, "counter" => 0);
+	$time = time();
+	$p = array( "url" => $url, "counter" => 0, "time" => $time );
 	$g = file_get_contents('urls.json');
 	$h = json_decode($g);
 	$user_input = array();
