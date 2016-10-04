@@ -11,6 +11,7 @@ $('#copy').mousedown(function(){
 });
 
 $(document).mouseup(function(){
+	alert("got in here too");
     setTimeout(function() {
 		element.innerHTML = "Copy URL";
 		element.style.color = "#92bb35";
