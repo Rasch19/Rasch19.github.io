@@ -3,10 +3,9 @@ $("#copy").mousedown(function() {
 	
 	var button = document.getElementById("copy");
 	
-	console.log("niggah");
     button.innerHTML = "Copied!";
-	button.style.color = "#ff3300";
-	button.style.borderColor = "#ff3300";
+	button.style.color = "#ff9900";
+	button.style.borderColor = "#ff9900";
     return false;
 });
 
