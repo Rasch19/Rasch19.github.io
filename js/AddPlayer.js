@@ -13,6 +13,8 @@
 			}
 			
 			button.innerHTML = "Unready";
+			button.style.color = "#ff9900";
+			button.style.borderColor = "#ff9900";
 			
 		}
 		else if(button.innerHTML == "Unready")
@@ -23,7 +25,8 @@
 			}
 			
 			button.innerHTML = "Ready";
-			
+			button.style.color = "#ff3300";
+			button.style.borderColor = "#ff3300";
 		}
 		else{
 			alert("an Error occured!");
