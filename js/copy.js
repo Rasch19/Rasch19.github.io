@@ -13,7 +13,7 @@ $("#copy").click(function() {
 		button.style.color = "#92bb35";
 		button.style.borderColor = "#92bb35";
 		console.log("put the color back");
-	}, 1000);
+	}, 2500);
 	console.log("done with function");
 	
     return false;
