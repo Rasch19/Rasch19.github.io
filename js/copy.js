@@ -20,7 +20,7 @@ $('#copy').mouseup(function () {
 		button.style.color = "#92bb35";
 		button.style.borderColor = "#92bb35";
 		console.log("put the color back");
-	}, 500);
+	}, 100);
 	console.log("done with function");
     return false;
 });
@@ -34,7 +34,7 @@ $('#copy').mouseout(function () {
 		button.style.color = "#92bb35";
 		button.style.borderColor = "#92bb35";
 		console.log("put the color back");
-	}, 500);
+	}, 100);
 	console.log("done with function");
     return false;
 });
