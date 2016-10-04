@@ -2,7 +2,6 @@ var clicker = $('#copy');
 var element = document.getElementById["#copy"]
 
 $('#copy').mousedown(function(){
-	alert("registered click!");
     element.innerHTML = "Copied!";
 	element.style.color = "#ff3300";
 	element.style.borderColor = "#ff3300";
