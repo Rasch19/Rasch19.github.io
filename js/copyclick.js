@@ -1,5 +1,5 @@
 var clicker = $('#copy');
-var element = document.getElementById["#copy"]
+var element = document.getElementById["#copy"];
 
 $('#copy').click(function(){
     element.innerHTML = "Copied!";
