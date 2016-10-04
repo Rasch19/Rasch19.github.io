@@ -1,5 +1,5 @@
 
-	$("#Add").click(function() {
+	$("#Add").mousedown(function() {
 		
 		var element = document.getElementById("p1");
 		var button = document.getElementById("Add");
