@@ -1,5 +1,13 @@
 
 	$("#Add").mousedown(function() {
+		var button = document.getElementById("Add");
+		button.style.color = "##ff9900";
+		button.style.borderColor = "#ff9900";
+	});
+
+
+
+	$("#Add").mouseup(function() {
 		
 		var element = document.getElementById("p1");
 		var button = document.getElementById("Add");
