@@ -1,7 +1,7 @@
-$("#copy").click(function() {
+$("#copybutton").click(function() {
 	clipboard.copy(location.href);
 	
-	var button = document.getElementById("#copy");
+	var button = document.getElementById("#copybutton");
 	
 	console.log("niggah");
     button.innerHTML = "Copied!";
