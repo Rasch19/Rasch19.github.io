@@ -1,7 +1,7 @@
 
 	$("#Add").mousedown(function() {
 		var button = document.getElementById("Add");
-		button.style.color = "##ff9900";
+		button.style.color = "#ff9900";
 		button.style.borderColor = "#ff9900";
 	});
 
