@@ -1,15 +1,90 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	</head>
-	<body>
-		<a class="button" href="CV.pdf">CV</a>
-		<a class="button" href="helicopter.html">Helicopter</a>
-		<a class="button" href="replay.html">Replay - a short film</a>
-		<a class="button" href="readycheck.html">Ready-check.net</a>
-	</body>
-</html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+	<div id="header">
+		<div class="inner">
+			<ul>
+				<li><a class="button" href="#helicopter">Helicopter</a></li>
+				<li><a class="button" href="#replay">Replay</a></li>
+				<li><a class="button" href="#Ready-check">Ready-check</a></li>
+				<li><a class="button" href="#Catflapp">Catflapp</a></li>
+				<li><a class="button" href="#Languages">Languages</a></li>
+				<li><a class="button" href="CV.pdf">CV</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<div id="helicopter" class="block">
+			<div style="width: 98%;">
+				<h2>Helicopter</h2>
+			</div>
+			<div class="contenttext">
+				Made in <i>MAYA</i> and then implemented in Unreal Engine 4. This R22 Robinson Helicopter is a to scale model of the real helicopter modeled after plans found on the Robinson website. It is implemented in UE4 with a physics engine that is built from
+				the ground up with no borrowed parts and is controlled by and algorithm that is self-correcting in relation to height-data inputs.
+			</div>
+			<iframe src="https://www.youtube.com/embed/FrBFcR_iIaQ?autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div id="replay" class="block">
+			<div style="width: 98%;">
+				<h2>Replay - a short film</h2>
+			</div>
+			<div class="contenttext">
+				Replay is a shortfilm combining 3D animation and 2D animation. The models for the 3D part were made in <i>MAYA</i> and the 2D animations were made in adobe flash. This was the first group project in year 1 fo my education.
+			</div>
+			<iframe src="https://www.youtube.com/embed/K8MK-2JJYHQ?autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div id="Ready-check" class="block">
+			<div style="width: 98%;">
+				<h2>Ready-check.net</h2>
+			</div>
+			<div class="contenttext">
+				<a href="http://www.ready-check.net"><i>Ready-check.net</i></a> is a website for gamers who game in groups. It facilitates easy to use tools
+				for making sure everybody is ready before queueing up for a game. It is made entirely from scratch in
+				jQuery and javascript with a JSON database.
+			</div>
+			<a href="http://www.ready-check.net"><img src="Readypicture.png" alt="Ready-check"></a>	
+		</div>
+		<div id="Catflapp" class="block">
+			<div style="width: 98%;">
+				<h2>CATFLAPP</h2>
+			</div>
+			<div class="contenttext">
+				<i>CATFLAPP</i> is a prototype of the UI for a smart cat flap that would be controlled with an app.
+				It is made in <i>Adobe xd</i>.
+			</div>
+			<iframe src="https://i.gyazo.com/2b9f350477e8d10f5f4c2b0fe7ebddc5.mp4"></iframe>
+		</div>
+		<div id="Languages" class="block">
+			<div style="width: 98%;">
+				<h2>Languages and programs that I have worked with</h2>
+			</div>
+			<div class="contenttext">
+				<ul id="programlist">
+					<li class="program">HTML</li>			<li class="program">C++</li>				<li class="program">Android Studios</li>	<li class="program">Adobe Photoshop</li>
+					<li class="program">PHP</li>			<li class="program">Java</li>				<li class="program">Unreal Engine 4</li>	<li class="program">Adobe xd</li>
+					<li class="program">Javascript</li>		<li class="program">React-native</li>		<li class="program">MATLAB</li>				<li class="program">Adobe Illustrator</li>
+					<li class="program">MySQL</li>			<li class="program">openGL</li>				<li class="program">p5</li>					<li class="program">Adobe Premier</li>
+					<li class="program">jQuery</li>			<li class="program">JSON</li>				<li class="program">MAYA</li>				<li class="program">Adobe Flash</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+
+	<footer>
+		<div>
+			<p>Made by Johannes Trussell Rasch</p>
+			<p>2019-03-03</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>	
