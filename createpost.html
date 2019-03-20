@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Labb 3</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	
+	<body>
+	<h1>Tävlingssida</h1>
+	
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at gravida urna, 
+		at aliquet nulla. Ut eget neque id mauris porttitor blandit sed a nulla. Maecenas 
+		sagittis egestas magna eget malesuada. Nam eget lobortis tellus. Etiam malesuada 
+		rhoncus magna in laoreet. Mauris nec massa eget nisi auctor ornare. Donec at dapibus 
+		eros, vel egestas odio. Aenean sed venenatis sapien. Aenean varius molestie urna. 
+		Phasellus a sagittis tellus.
+	</p>
+	
+	
+	
+		<form id="mainform" action="savepost.php" method="post">
+		
+			<h4>Förnamn:</h4>
+			<input class="input" id="firstname" type="text" form="mainform" name="firstname">
+			
+			<h4>Efternamn:</h4>
+			<input class="input" id="lastname" type="text" form="mainform" name="lastname">
+			
+			<h4>Email:</h4>
+			<input class="input" id="email" type="email" form="mainform" name="email"><br>
+			
+			<div>
+				<input id="consent" type="checkbox" form="mainform" name="consent" value = "1">
+				samtycke till regler och personuppgiftshantering
+			</div>
+		</form>
+		
+		<h3 id="submit">Skicka in</h3>
+		
+		<script type="text/javascript" src="js/MyScript.js"></script>
+	</body>
+</html>
