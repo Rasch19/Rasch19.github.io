@@ -9,6 +9,11 @@ body, p {
 	max-width: 700px;
 }
 
+h1 {
+	text-align: center;
+	width: 100vw;
+	max-width: 500px;
+}
 
 
 form h4 {
