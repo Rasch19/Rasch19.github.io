@@ -1,0 +1,46 @@
+.input{
+	width: 100vw;
+	max-width: 500px;
+	height: 4vh;
+}
+
+body, p {
+	width: 100%;
+	max-width: 700px;
+}
+
+
+
+form h4 {
+	margin-bottom: 2px;
+}
+
+form div {
+	margin-top: 1vh;
+}
+
+#consent {
+	height: 3vh;
+	width: 3vh;
+	min-height: 15px;
+	min-width: 15px;
+}
+
+#submit:hover {
+	cursor: pointer;
+}
+
+#submit {
+	border-style: solid;
+	border-color: #92bb35;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	background-color: #222b34;
+	color: #92bb35;
+	text-transform: uppercase;
+	border-width: 2 2 2 2;
+	width: 100px;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	
+}
