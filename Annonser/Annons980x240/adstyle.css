@@ -21,6 +21,11 @@ body {
 	border-width: 1px;
 	border-color: black;
 }
+
+container:hover {
+	cursor: pointer;
+}
+
 h2 {
 	font-family: LFR;
 	color: #005aa0;

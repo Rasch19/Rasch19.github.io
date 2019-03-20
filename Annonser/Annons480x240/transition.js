@@ -4,6 +4,8 @@ var second = document.getElementById("second");
 var count = 0;
 var myvar = 0;
 
+document.getElementById("container").addEventListener("click", myFunction);
+
 setTimeout(startTrans, 5000);
 
 function startTrans() {
@@ -21,4 +23,8 @@ function contTrans() {
 	if(count > 2) {
 		clearInterval(myvar);
 	}
+}
+
+function myFunction() {
+  window.top.location.href = "https://www.isobar.com/se/sv/";
 }
