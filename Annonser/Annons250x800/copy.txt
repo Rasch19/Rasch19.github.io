@@ -1,0 +1,26 @@
+﻿Frame 1
+
+Har olyckan varit framme?
+
+
+----
+
+
+
+Frame 2
+
+	Rubrik:
+
+		Vi hjälper dig med din hemförsäkring.
+
+
+	Underrubrik:
+		Ansök snabbt och enkelt
+
+
+	----
+
+	
+Call to Action-knapp:
+		
+Beställ nu

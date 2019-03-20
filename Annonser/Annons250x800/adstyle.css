@@ -1,0 +1,130 @@
+@font-face {
+    font-family: LF;
+    src: url("LFAlfa-Regular-B.otf") format("opentype");
+}
+
+@font-face {
+    font-family: LFR;
+    src: url("LFRubrik-Regular.woff2") format("woff2");
+}
+
+body {
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+#container {
+	box-sizing: border-box;
+	width: 250px;
+	height: 800px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+h2 {
+	font-family: LFR;
+	color: #005aa0;
+	text-align: center;
+	font-size: 35px;
+}
+
+h3 {
+	font-family: LF;
+	color: #005aa0;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-size: 28px;
+}
+
+.crop {
+	position: absolute;
+	height: 458px;
+	width: 248px;
+	top: 171;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #005aa0;
+	border-width: 0px 0px 3px 0px;
+}
+
+.crop img {
+	height: 458px;
+	width: 342px;
+	margin: 0px 0 0 -46px;
+}
+
+#logo {
+	position: absolute;
+	width: 236px;
+	top: 690px;
+	left: 18px;
+}
+
+
+#first, #second {
+	position: absolute;
+	display: inline-block;
+	width: 248px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#first h3 {
+	position: absolute;
+	top: 15px;
+	width: 250px;
+}
+
+
+
+.transparent {
+	opacity: 0;
+}
+
+
+#second {
+	visibility: hidden;
+}
+
+#second h2 {
+	position: absolute;
+	top: 60px;
+	width: inherit;
+}
+
+#second h3 {
+	position: absolute;
+	top: 460px;
+	width: inherit;
+	font-weight: normal;
+}
+
+#buttondiv {
+	position: absolute;
+	top: 300px;
+	width: 250px;
+}
+
+#second h1 {
+	font-family: LF;
+	font-weight: normal;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #005aa0;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	width: 80%;
+}
+
+
+
+
+
+
+
+
