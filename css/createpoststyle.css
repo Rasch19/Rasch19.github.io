@@ -1,15 +1,18 @@
 .input{
-	width: 100vw;
-	max-width: 500px;
+	width: 500px;
+	max-width: 100%;
 	height: 4vh;
+	margin-right: 8px;
 }
 
 body, p {
-	width: 100%;
-	max-width: 700px;
+	width: 700px;
+	max-width: 100%;
+	font-size: 2vh;
 }
 
 h1 {
+	font-size: 7vh;
 	text-align: center;
 	width: 100vw;
 	max-width: 500px;
@@ -18,10 +21,17 @@ h1 {
 
 form h4 {
 	margin-bottom: 2px;
+	font-size: 2vh;
 }
 
 form div {
 	margin-top: 1vh;
+}
+
+form div p {
+	display: inline;
+	margin-top: 0px;
+	margin-bot: 0px;
 }
 
 #consent {
@@ -40,11 +50,12 @@ form div {
 	border-color: #92bb35;
 	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 	font-weight: normal;
+	font-size: 3vh;
+	width: 17vh;
 	background-color: #222b34;
 	color: #92bb35;
 	text-transform: uppercase;
 	border-width: 2 2 2 2;
-	width: 100px;
 	text-align: center;
 	padding: 5px 5px 5px 5px;
 	
