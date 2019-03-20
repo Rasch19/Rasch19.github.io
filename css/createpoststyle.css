@@ -45,6 +45,10 @@ form div p {
 	cursor: pointer;
 }
 
+span:hover {
+	cursor: pointer;
+}
+
 #submit {
 	border-style: solid;
 	border-color: #92bb35;

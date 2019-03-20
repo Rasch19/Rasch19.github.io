@@ -1,0 +1,8 @@
+<h4 id="rules">Lorem Ipsum</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at gravida urna, 
+at aliquet nulla. Ut eget neque id mauris porttitor blandit sed a nulla. Maecenas 
+sagittis egestas magna eget malesuada. Nam eget lobortis tellus. Etiam malesuada 
+rhoncus magna in laoreet. Mauris nec massa eget nisi auctor ornare. Donec at dapibus 
+eros, vel egestas odio. Aenean sed venenatis sapien. Aenean varius molestie urna. 
+Phasellus a sagittis tellus.</p>

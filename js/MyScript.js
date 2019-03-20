@@ -1,4 +1,7 @@
 
+
+var hasadded = false;
+
 $("#submit").mousedown(function() {
 	
 	var button = document.getElementById("submit");
@@ -20,6 +23,21 @@ $("#submit").mouseup(function() {
 $(document).ready(function(){
   $("#submit").click(function(){
     submit();
+  });
+});
+
+$(document).ready(function(){
+  $("span").click(function(){
+    $.ajax({
+            url : "Lorem.txt",
+            dataType: "text",
+            success : function (data) {
+				if(!hasadded) {
+					$("body").append($(data));
+					hasadded = true;
+				}
+            }
+        });
   });
 });
 
